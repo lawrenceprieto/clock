@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.length-controls {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.break-controls, .session-controls {
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.timer {
+    margin: 20px;
+}
+
+#time-left {
+    font-size: 36px;
+}
+
+button#start_stop {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button#reset {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+audio#beep {
+    display: none;
+}
